@@ -230,7 +230,7 @@ header .container {
   background-color: rgb(245, 245, 245);
 }
 
-.close-top {
+.close_top {
   position: absolute;
   top: 31px;
   z-index: 1;
@@ -241,7 +241,7 @@ header .container {
   transition: 0.3s;
 }
 
-.close-bottom {
+.close_bottom {
   position: absolute;
   top: 39px;
   z-index: 1;
@@ -252,12 +252,12 @@ header .container {
   transition: 0.3s;
 }
 
-.nav_icon_open .close-top {
+.nav_icon_open .close_top {
   transform: translate3d(0px, 4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(45deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
 
-.nav_icon_open .close-bottom {
+.nav_icon_open .close_bottom {
   transform: translate3d(0px, -4px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-45deg) skew(0deg, 0deg);
   transform-style: preserve-3d;
 }
@@ -871,7 +871,8 @@ ul.last_col {
   padding-top: 130px;
 }
 
-.holistic_health .bg_white {
+.holistic_health .bg_white,
+.common_padding_all {
   padding: 10vw;
 }
 
@@ -1669,20 +1670,515 @@ footer .parent_col .item:not(:last-child) {
   transition: 0.4s;
 }
 
+.page_heading {
+  display: inline-block;
+  margin-bottom: 6rem;
+  border-bottom: 12px solid #212121;
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #212121;
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.padding__common {
+  padding: 10vw;
+  padding-bottom: 8vw;
+}
+
+#mix_btn_container li {
+  padding: 9px 30px;
+  cursor: pointer;
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#mix_btn_container li.mixitup-control-active {
+  background-color: #f5f5f5;
+  background-image: url("../images/mix_active.svg");
+  background-position: 11px 50%;
+  background-size: 8px;
+  background-repeat: no-repeat;
+}
+
+#mix_box_container .mix_product_item.chumyum {
+  background-color: #ffe6ea;
+}
+
+#mix_box_container .mix_product_item.mumyum {
+  background-color: #e1f2fb;
+}
+
+#mix_box_container .mix_product_item.livyum {
+  background-color: #ddf0df;
+}
+
+#mix_box_container .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4px;
+  grid-row-gap: 4px;
+  grid-column-gap: 4px;
+  margin-bottom: 4px;
+}
+
+#mix_box_container .mix_product_item {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  padding: 2rem;
+  min-height: 570px;
+}
+
+#mix_box_container .mix_product_item .product_name {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+}
+
+#mix_box_container .mix_product_item.chumyum .product_name {
+  color: #ff7288;
+}
+
+#mix_box_container .mix_product_item.mumyum .product_name {
+  color: #5db8e8;
+}
+
+#mix_box_container .mix_product_item.livyum .product_name {
+  color: #79c081;
+}
+
+#mix_box_container .mix_product_item .price {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+#mix_box_container .mix_product_item>a {
+  height: 100%;
+  display: block;
+}
+
+#mix_box_container {
+  margin-top: 4px;
+}
+
+#mix_box_container .mix_product_item img {
+  width: 50%;
+  position: absolute;
+  bottom: -25px;
+  right: 50%;
+  transform: translate(50%);
+  transition: 0.3s;
+}
+
+#mix_box_container .mix_product_item:hover img {
+  bottom: 5px;
+}
+
+.hormonal_imbalances_section,
+.testimonial_section {
+  margin-top: 2px;
+}
+
+.hormonal_imbalances_section .bg_white>.row_d {
+  background-color: #f5f5f5;
+}
+
+.hormonal_imbalances_section .text_col {
+  display: flex;
+  padding: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+}
+
+.hormonal_imbalances_section .img_col {
+  width: 40%;
+  height: auto;
+  background-image: url("../images/hormonal-imbalances.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hormonal_imbalances_section .img_col img {
+  height: 370px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.hormonal_imbalances_section .sub_heading {
+  color: #ff7288;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hormonal_imbalances_section h3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.hormonal_imbalances_section p {
+  color: #212121;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.testimonial_section .testimonial_inner {
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/testimonial_bg.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial_section .content_col {
+  width: 50%;
+}
+
+.testimonial_section .text_col {
+  display: flex;
+  padding: 6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #fff;
+}
+
+.testimonial_section .padding__common {
+  padding: 5vw 10vw;
+}
+
+.testimonial_section .content_col .p_container {
+  position: relative;
+  overflow: hidden;
+  height: 164px;
+  margin-bottom: 2rem;
+}
+
+.testimonial_section .review_gradient {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  background-image: linear-gradient(0deg, #fff, hsla(0, 0%, 100%, 0) 75%);
+}
+
+.testimonial_section .btn__read {
+  position: relative;
+}
+
+.testimonial_section .btn__read .hover_line {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0px;
+  z-index: 2;
+  width: 0;
+  height: 1px;
+  background-color: #000;
+  transition: 0.4s;
+}
+
+.testimonial_section .btn__read:hover .hover_line {
+  width: 100%;
+}
+
+.candies_link_section small {
+  font-size: 0.625rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.body_bg_none {
+  background-color: transparent;
+}
+
+.toffease_about .section_small_width {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 5vw;
+}
+
+.toffease_about .section_small_width>.row_d {
+  display: grid;
+  grid-auto-columns: 1fr;
+  align-items: stretch;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  -ms-grid-columns: 0.75fr 0.75fr;
+  grid-template-columns: 0.75fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.toffease_about .img_col {
+  /* margin-bottom: 200px; */
+  padding: 0 64px 0px 0px;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  position: relative;
+}
+
+.toffease_about .text_col {
+  -ms-grid-row-align: end;
+  align-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  padding: 0 64px 0px 20px;
+  padding-top: 5vw;
+}
+
+.toffease_about .text_col .inner_text {
+  padding-top: 64px;
+}
+
+.toffease_about h2 {
+  font-size: 3.4rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -1px;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 40px;
+}
+
+.toffease_about p {
+  width: 27vw;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  font-family: "Merriweather", serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.bg_pink {
+  background-color: #ffe6ea;
+}
+
+.founder_section .img_bg_color {
+  /* will-change: transform;
+  transform: translate3d(0px, 25.46vh, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg); */
+  transform-style: preserve-3d;
+  display: flex;
+  width: 100%;
+  height: 64vh;
+  padding: 2rem;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #fff;
+}
+
+.founder_section .rotated_content {
+  /*  position: relative;
+  z-index: 2; */
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: rotate(1deg);
+}
+
+.founder_section .rotated_content img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.founder_section .text_col h2 {
+  color: #ff7288;
+  font-size: 10vw;
+  line-height: 1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", cursive;
+  margin-bottom: 65px;
+}
+
+.founder_section .text_col p {
+  width: 27vw;
+  font-family: "Merriweather", serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0px;
+  text-decoration: none;
+}
+
+.founder_section .text_col {
+  width: 50%;
+  margin-right: 2.8%;
+}
+
+.founder_section .img_col {
+  width: 47.2%;
+}
+
+.founder_section {
+  position: relative;
+  /* min-height: 75vh; */
+}
+
+.founder_section .img_col {
+  position: relative;
+}
+
+.bg_move,
+.bg_move_bottom_img {
+  position: absolute;
+  top: unset;
+  bottom: 0;
+  right: -20px;
+  max-width: 200px;
+  width: 100%;
+  background-image: url("../images/anis_old.webp");
+  background-size: contain;
+  object-fit: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 9;
+  min-height: 100%;
+}
+
+.animated_parent,
+.animated_parent_bottom {
+  position: relative;
+}
+
+.animated_item,
+.bg_move_bottom {
+  position: absolute;
+}
+
+.toffease_about .img_col .bg_move_bottom {
+  bottom: 0;
+  width: 100%;
+}
+
+.bg_move_bottom_img {
+  width: 100%;
+  max-width: 385px;
+  background-image: url("../images/about_toffease_1.webp");
+  right: unset;
+  height: 100%;
+  bottom: -170px;
+}
+
+.dr_details_section .item {
+  padding: 5vw;
+}
+
+.dr_details_section .sub_heading {
+  color: #ff7288;
+  font-size: 1rem;
+  line-height: 1.3;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+.dr_details_section .heading {
+  margin-top: 7px;
+  padding-bottom: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.dr_details_section .text_col,
+.dr_details_section .img_col {
+  width: calc(50% - 15px);
+}
+
+.dr_details_section .first_col {
+  margin-right: 30px;
+}
+
+.dr_details_section .row_d {
+  align-items: center;
+}
+
 /* 
 .
 .
 .
 .
-
+font-family: "Big Shoulders Display", cursive;
+font-family: "Merriweather", serif;
 */
+
 /*=================================
 ======= *** Responsive *** ========
 ===================================*/
+@media only screen and (max-width: 1800px) {
+  #mix_box_container .mix_product_item {
+    min-height: 530px;
+  }
+}
+
+@media only screen and (max-width: 1700px) {
+  #mix_box_container .mix_product_item {
+    min-height: 505px;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  #mix_box_container .mix_product_item {
+    min-height: 475px;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
+  .container {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
 
   .experts_at_toffease .bg_white,
-  .holistic_health .bg_white {
+  .holistic_health .bg_white,
+  .common_padding_all {
     padding: 3vw;
     padding-top: 5vw;
   }
@@ -1711,9 +2207,31 @@ footer .parent_col .item:not(:last-child) {
   .slider_section {
     padding-top: 110px;
   }
+
+  #mix_box_container .mix_product_item {
+    min-height: 530px;
+  }
+
+  .padding__common {
+    padding: 3vw;
+    padding-bottom: 5vw;
+  }
+
+  .testimonial_section .padding__common {
+    padding: 5vw 3vw;
+  }
+
+  .toffease_about .img_col .bg_move_bottom {
+    display: flex;
+    justify-content: center;
+  }
 }
 
-@media only screen and (max-width: 1400px) {}
+@media only screen and (max-width: 1400px) {
+  #mix_box_container .mix_product_item {
+    min-height: 495px;
+  }
+}
 
 @media only screen and (max-width: 1300px) {
   .container {
@@ -1726,9 +2244,32 @@ footer .parent_col .item:not(:last-child) {
     width: 350px;
     top: -100px;
   }
+
+  #mix_box_container .mix_product_item {
+    min-height: 520px;
+  }
+
+  .hormonal_imbalances_section .text_col,
+  .testimonial_section .text_col {
+    padding: 5rem;
+  }
+
+  .founder_section .text_col p {
+    width: 40vw;
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .founder_section .text_col h2 {
+    margin-bottom: 35px;
+  }
 }
 
-@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+  #mix_box_container .mix_product_item {
+    min-height: 495px;
+  }
+}
 
 @media only screen and (max-width: 1100px) {
   .container {
@@ -1738,6 +2279,10 @@ footer .parent_col .item:not(:last-child) {
 
   .slider_section .slider_items_inner {
     width: 80%;
+  }
+
+  #mix_box_container .mix_product_item {
+    min-height: 470px;
   }
 }
 
@@ -1865,7 +2410,8 @@ footer .parent_col .item:not(:last-child) {
   }
 
   .experts_at_toffease .bg_white,
-  .holistic_health .bg_white {
+  .holistic_health .bg_white,
+  .common_padding_all {
     padding-bottom: 7vw;
   }
 
@@ -1894,6 +2440,61 @@ footer .parent_col .item:not(:last-child) {
   .white_header .logo img,
   .click_white_header .logo img {
     top: 10px;
+  }
+
+  #mix_box_container .mix_product_item {
+    min-height: 445px;
+  }
+
+  #mix_box_container .mix_product_item img {
+    bottom: -10px;
+  }
+
+  .hormonal_imbalances_section .text_col,
+  .testimonial_section .text_col {
+    padding: 3rem;
+  }
+
+  .toffease_about p {
+    width: 100%;
+  }
+
+  .toffease_about .img_col {
+    padding: 30px 30px 0px 0px;
+  }
+
+  .toffease_about .text_col {
+    padding: 30px 30px 0px 20px;
+  }
+
+  .founder_section .img_bg_color {
+    height: 512px;
+    padding: 1.25rem;
+  }
+
+  .dr_details_section .row_d {
+    align-items: stretch;
+  }
+
+  .dr_details_section .img_col img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .dr_details_section .item {
+    padding: 5vw 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  #mix_box_container .mix_product_item {
+    min-height: 425px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  #mix_box_container .mix_product_item {
+    min-height: 390px;
   }
 }
 
@@ -2118,12 +2719,12 @@ footer .parent_col .item:not(:last-child) {
     font-size: 0.5rem;
   }
 
-  .close-top {
+  .close_top {
     top: 19px;
     width: 18px;
   }
 
-  .close-bottom {
+  .close_bottom {
     top: 27px;
     width: 18px;
   }
@@ -2206,6 +2807,150 @@ footer .parent_col .item:not(:last-child) {
 
   footer h2 {
     font-size: 1.5rem;
+  }
+
+  #mix_box_container .content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #mix_box_container .mix_product_item {
+    min-height: 425px;
+  }
+
+  #mix_main_container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .hormonal_imbalances_section .bg_white>.row_d {
+    flex-direction: column;
+  }
+
+  .hormonal_imbalances_section .text_col {
+    padding: 2rem;
+  }
+
+  .hormonal_imbalances_section .text_col,
+  .hormonal_imbalances_section .img_col {
+    width: 100%;
+  }
+
+  .hormonal_imbalances_section .img_col {
+    min-height: 270px;
+  }
+
+  .hormonal_imbalances_section h3 {
+    font-size: 1rem;
+  }
+
+  .testimonial_section .content_col {
+    width: 100%;
+  }
+
+  .page_heading {
+    border-bottom: 8px solid #212121;
+    margin-bottom: 3rem;
+  }
+
+  .toffease_about .section_small_width>.row_d {
+    display: unset;
+  }
+
+  .toffease_about .img_col,
+  .toffease_about .text_col {
+    padding: 0;
+  }
+
+  .toffease_about .text_col {
+    padding: 0;
+  }
+
+  .toffease_about h2 {
+    margin-bottom: 15px;
+    margin-top: 30px;
+    font-size: 2rem;
+  }
+
+  .founder_section .row_d {
+    flex-direction: column-reverse;
+  }
+
+  .founder_section .text_col {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .founder_section .img_col {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .founder_section .text_col p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .founder_section .text_col h2 {
+    margin-bottom: 15px;
+  }
+
+  .founder_section .img_bg_color {
+    height: 450px;
+  }
+
+  .founder_section .bg_move {
+    top: 0;
+    right: -10px;
+    max-width: 130px;
+  }
+
+  .bg_move_bottom_img {
+    position: unset;
+    max-width: 100%;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  .toffease_about .img_col .bg_move_bottom {
+    position: unset;
+    padding-top: 35px;
+  }
+
+  .toffease_about .text_col .inner_text {
+    padding-top: 0;
+  }
+
+  .animated_item,
+  .bg_move_bottom {
+    position: unset;
+  }
+
+  .dr_details_section .row_d {
+    flex-direction: column;
+  }
+
+  .dr_details_section .text_col,
+  .dr_details_section .img_col {
+    width: 100%;
+  }
+
+  .dr_details_section .first_col {
+    margin-right: 0;
+  }
+
+  .dr_details_section .text_col {
+    order: 2;
+    margin-top: 20px;
+  }
+
+  .dr_details_section .img_col {
+    order: 1;
+  }
+
+  .dr_details_section .heading {
+    font-size: 2.2rem;
+    padding-bottom: 1.5rem;
   }
 }
 
@@ -2370,5 +3115,46 @@ footer .parent_col .item:not(:last-child) {
 
   .logo img {
     width: 100px;
+  }
+
+  #mix_btn_container li {
+    padding: 9px 25px;
+  }
+
+  #mix_btn_container li.mixitup-control-active {
+    background-position: 8px 50%;
+  }
+
+  .hormonal_imbalances_section .text_col {
+    padding: 1rem;
+  }
+
+  .page_heading {
+    border-bottom: 0;
+  }
+
+  .toffease_about p {
+    font-size: 3.5vw;
+  }
+
+  .founder_section .img_bg_color {
+    height: 256px;
+  }
+
+  .dr_details_section .heading {
+    font-size: 2rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #mix_box_container .mix_product_item {
+    min-height: 405px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  #mix_box_container .mix_product_item {
+    min-height: 345px;
   }
 }

@@ -1,148 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Toffease - Your Health Companion!</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-  <title>Toffease - Your Health Companion!</title>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
-  <link rel="stylesheet" href="./styles/style.css" />
-</head>
-
-<body id="body">
-  <header class="sticky-top">
-    <div id="dropdown_container">
-      <div class="dropdown_container_second">
-        <div class="dropdown_container_innner">
-          <div class="breadcrumb-navi">
-            <p class="d-flex">
-              © 2023 All Rights Reserved by <a href="#">wizbytes</a>
-            </p>
-          </div>
-          <div class="dropdown__inner">
-            <div class="nav_col">
-              <ul>
-                <li data-aos="fade-in">
-                  <a class="text_wrap" href="">
-                    <h1 class="effect-1 active">HOME</h1>
-                    <h1 class="effect-1 hover">HOME</h1>
-                  </a>
-                </li>
-                <li data-aos="fade-in">
-                  <a class="text_wrap" href="">
-                    <h1 class="effect-1">PRODUCTS</h1>
-                    <h1 class="effect-1 hover">PRODUCTS</h1>
-                    <span class="sup_absolute">03</span>
-                  </a>
-                </li>
-                <li>
-                  <a class="text_wrap" href="">
-                    <h1 class="effect-1">ABOUT US</h1>
-                    <h1 class="effect-1 hover">ABOUT US</h1>
-                  </a>
-                </li>
-                <li data-aos="fade-in">
-                  <a class="text_wrap" href="">
-                    <h1 class="effect-1">JOURNAL</h1>
-                    <h1 class="effect-1 hover">JOURNAL</h1>
-                  </a>
-                </li>
-                <li>
-                  <a class="text_wrap" href="">
-                    <h1 class="effect-1">CONTACT</h1>
-                    <h1 class="effect-1 hover">CONTACT</h1>
-                  </a>
-                </li>
-              </ul>
-              <ul class="last_col" data-aos="fade-in">
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Reviews</a></li>
-                <li><a href="">Terms and Conditions</a></li>
-              </ul>
+  <body id="body">
+    <header class="sticky-top">
+      <div id="dropdown_container">
+        <div class="dropdown_container_second">
+          <div class="dropdown_container_innner">
+            <div class="breadcrumb-navi">
+              <p class="d-flex">
+                © 2023 All Rights Reserved by <a href="#">wizbytes</a>
+              </p>
             </div>
-            <div class="social_col">
-              <h3>Follow us</h3>
-              <ul>
-                <li>
-                  <a class="active" href="">
-                    <i class="fa-brands fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-              </ul>
-              <div class="line-left-navi" style="opacity: 1"></div>
-            </div>
-            <div class="instagram_post_wrapper">
-              <div class="line-left-navi" style="opacity: 1"></div>
-              <div id="instagram_post_wrapper_inner">
-                <div class="insta_post_parent">
-                  <div class="post_item">
-                    <a href="">
-                      <div class="inner_col">
-                        <img src="./images/insta1.png" alt="" />
-                        <div class="icon_and_text">
-                          <i class="fa-brands fa-instagram"></i>
-                          <p>@Toffease</p>
-                        </div>
-                      </div>
+            <div class="dropdown__inner">
+              <div class="nav_col">
+                <ul>
+                  <li data-aos="fade-in">
+                    <a class="text_wrap" href="index.html">
+                      <h1 class="effect-1 active">HOME</h1>
+                      <h1 class="effect-1 hover">HOME</h1>
                     </a>
-                  </div>
-                  <div class="post_item">
-                    <a href="">
-                      <div class="inner_col">
-                        <img src="./images/insta2.png" alt="" />
-                        <div class="icon_and_text">
-                          <i class="fa-brands fa-instagram"></i>
-                          <p>@Toffease</p>
-                        </div>
-                      </div>
+                  </li>
+                  <li data-aos="fade-in">
+                    <a class="text_wrap" href="shop.html">
+                      <h1 class="effect-1">PRODUCTS</h1>
+                      <h1 class="effect-1 hover">PRODUCTS</h1>
+                      <span class="sup_absolute">03</span>
                     </a>
-                  </div>
-                  <div class="post_item">
-                    <a href="">
-                      <div class="inner_col">
-                        <img src="./images/insta3.png" alt="" />
-                        <div class="icon_and_text">
-                          <i class="fa-brands fa-instagram"></i>
-                          <p>@Toffease</p>
-                        </div>
-                      </div>
+                  </li>
+                  <li>
+                    <a class="text_wrap" href="about.html">
+                      <h1 class="effect-1">ABOUT US</h1>
+                      <h1 class="effect-1 hover">ABOUT US</h1>
                     </a>
-                  </div>
-                  <div class="post_item">
-                    <a href="">
-                      <div class="inner_col">
-                        <img src="./images/insta1.png" alt="" />
-                        <div class="icon_and_text">
-                          <i class="fa-brands fa-instagram"></i>
-                          <p>@Toffease</p>
-                        </div>
-                      </div>
+                  </li>
+                  <li data-aos="fade-in">
+                    <a class="text_wrap" href="">
+                      <h1 class="effect-1">JOURNAL</h1>
+                      <h1 class="effect-1 hover">JOURNAL</h1>
                     </a>
-                  </div>
-                  <div class="post_item">
-                    <a href="">
-                      <div class="inner_col">
-                        <img src="./images/insta2.png" alt="" />
-                        <div class="icon_and_text">
-                          <i class="fa-brands fa-instagram"></i>
-                          <p>@Toffease</p>
-                        </div>
-                      </div>
+                  </li>
+                  <li>
+                    <a class="text_wrap" href="">
+                      <h1 class="effect-1">CONTACT</h1>
+                      <h1 class="effect-1 hover">CONTACT</h1>
                     </a>
+                  </li>
+                </ul>
+                <ul class="last_col" data-aos="fade-in">
+                  <li><a href="">FAQ</a></li>
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Terms and Conditions</a></li>
+                </ul>
+              </div>
+              <div class="social_col">
+                <h3>Follow us</h3>
+                <ul>
+                  <li>
+                    <a class="active" href="">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                </ul>
+                <div class="line-left-navi" style="opacity: 1"></div>
+              </div>
+              <div class="instagram_post_wrapper">
+                <div class="line-left-navi" style="opacity: 1"></div>
+                <div id="instagram_post_wrapper_inner">
+                  <div class="insta_post_parent">
+                    <div class="post_item">
+                      <a href="">
+                        <div class="inner_col">
+                          <img src="./images/insta1.png" alt="" />
+                          <div class="icon_and_text">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>@Toffease</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="post_item">
+                      <a href="">
+                        <div class="inner_col">
+                          <img src="./images/insta2.png" alt="" />
+                          <div class="icon_and_text">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>@Toffease</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="post_item">
+                      <a href="">
+                        <div class="inner_col">
+                          <img src="./images/insta3.png" alt="" />
+                          <div class="icon_and_text">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>@Toffease</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="post_item">
+                      <a href="">
+                        <div class="inner_col">
+                          <img src="./images/insta1.png" alt="" />
+                          <div class="icon_and_text">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>@Toffease</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="post_item">
+                      <a href="">
+                        <div class="inner_col">
+                          <img src="./images/insta2.png" alt="" />
+                          <div class="icon_and_text">
+                            <i class="fa-brands fa-instagram"></i>
+                            <p>@Toffease</p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -150,721 +162,754 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="topnav">
-        <div class="d-flex align-items-center justify-content-between">
-          <div class="d-flex align-items-center">
-            <a href="#" class="nav_icon hamburger_btn" onclick="toggleButton()">
-              <div class="close-top"></div>
-              <div class="close-bottom"></div>
+      <div class="container">
+        <div class="topnav">
+          <div class="d-flex align-items-center justify-content-between">
+            <div class="d-flex align-items-center">
+              <a
+                href="#"
+                class="nav_icon hamburger_btn"
+                onclick="toggleButton()"
+              >
+                <div class="close_top"></div>
+                <div class="close_bottom"></div>
+              </a>
+              <a href="index.html" class="logo ms-5">
+                <img src="./images/logo.svg" alt="" />
+              </a>
+            </div>
+            <a href="#" class="cart_btn hamburger_btn">
+              <p class="cart_quantity">0</p>
+              <img src="./images/shopping-basket.svg" alt="" />
             </a>
-            <a href="index.html" class="logo ms-5">
-              <img src="./images/logo.svg" alt="" />
-            </a>
           </div>
-          <a href="#" class="cart_btn hamburger_btn">
-            <p class="cart_quantity">0</p>
-            <img src="./images/shopping-basket.svg" alt="" />
-          </a>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <main>
-    <section class="slider_section">
-      <div class="slider_inner">
-        <div class="slider">
-          <div class="slider_single_item slider_first">
-            <div class="slider_item">
-              <div class="slider_items_inner">
-                <div class="heading_cont after_before">
-                  <h1>Say Goodbye to Menstrual Discomfort with Chumyum</h1>
-                </div>
-                <p>Nature's Solution for a Better Time of the Month</p>
-                <div class="btn_container">
-                  <span class="after_before">
-                    <a class="slider_btn" href="">
-                      View product
-                      <span class="btn_hover_bg"> </span>
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="slider_single_item slider_second">
-            <div class="slider_item">
-              <div class="slider_items_inner">
-                <div class="heading_cont after_before">
-                  <h1>Embrace Menopause with Confidence with Mumyum</h1>
-                </div>
-                <p>Say Hello to a Better Quality of Life During Menopause</p>
-                <div class="btn_container">
-                  <span class="after_before">
-                    <a class="slider_btn" href="">
-                      View product
-                      <span class="btn_hover_bg"> </span>
-                    </a>
-                  </span>
+    <main>
+      <section class="slider_section">
+        <div class="slider_inner">
+          <div class="slider">
+            <div class="slider_single_item slider_first">
+              <div class="slider_item">
+                <div class="slider_items_inner">
+                  <div class="heading_cont after_before">
+                    <h1>Say Goodbye to Menstrual Discomfort with Chumyum</h1>
+                  </div>
+                  <p>Nature's Solution for a Better Time of the Month</p>
+                  <div class="btn_container">
+                    <span class="after_before">
+                      <a class="slider_btn" href="">
+                        View product
+                        <span class="btn_hover_bg"> </span>
+                      </a>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="slider_single_item slider_third">
-            <div class="slider_item">
-              <div class="slider_items_inner">
-                <div class="heading_cont after_before">
-                  <h1>Take Care of Your Liver with Livyum</h1>
+            <div class="slider_single_item slider_second">
+              <div class="slider_item">
+                <div class="slider_items_inner">
+                  <div class="heading_cont after_before">
+                    <h1>Embrace Menopause with Confidence with Mumyum</h1>
+                  </div>
+                  <p>Say Hello to a Better Quality of Life During Menopause</p>
+                  <div class="btn_container">
+                    <span class="after_before">
+                      <a class="slider_btn" href="">
+                        View product
+                        <span class="btn_hover_bg"> </span>
+                      </a>
+                    </span>
+                  </div>
                 </div>
-                <p>Support Your Liver for Optimal Well-Being</p>
-                <div class="btn_container">
-                  <span class="after_before">
-                    <a class="slider_btn" href="">
-                      View product
-                      <span class="btn_hover_bg"> </span>
-                    </a>
-                  </span>
+              </div>
+            </div>
+            <div class="slider_single_item slider_third">
+              <div class="slider_item">
+                <div class="slider_items_inner">
+                  <div class="heading_cont after_before">
+                    <h1>Take Care of Your Liver with Livyum</h1>
+                  </div>
+                  <p>Support Your Liver for Optimal Well-Being</p>
+                  <div class="btn_container">
+                    <span class="after_before">
+                      <a class="slider_btn" href="">
+                        View product
+                        <span class="btn_hover_bg"> </span>
+                      </a>
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="holistic_health">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_heading text-center">
-            <h2>Holistic Health and Wellness with Toffease</h2>
-          </div>
-          <div class="row_d">
-            <div class="card_item card_orange">
-              <div class="card_inner">
-                <img src="./images/anis1.webp" alt="" />
-                <h4>
-                  Toffease uses natural plant-based herbs and the principles
-                  of Ayurveda
-                </h4>
-              </div>
-            </div>
-            <div class="card_item card_blue">
-              <div class="card_inner">
-                <img src="./images/anis2.webp" alt="" />
-                <h4>
-                  Nourish Your Body with Vegan, Natural and Plant-Based
-                  Solutions
-                </h4>
-              </div>
-            </div>
-            <div class="card_item card_green">
-              <div class="card_inner">
-                <img src="./images/anis3.webp" alt="" />
-                <h4>
-                  Trusted and Tested for Quality with FSSAI, ISO and Clinical
-                  Approvals
-                </h4>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="expert_tips">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_small_width">
+      </section>
+      <section class="holistic_health">
+        <div class="container">
+          <div class="bg_white common_padding_all">
+            <div class="section_heading text-center">
+              <h2>Holistic Health and Wellness with Toffease</h2>
+            </div>
             <div class="row_d">
-              <div class="img_col">
-                <img src="./images/expert_tips.png" alt="" />
+              <div class="card_item card_orange">
+                <div class="card_inner">
+                  <img src="./images/anis1.webp" alt="" />
+                  <h4>
+                    Toffease uses natural plant-based herbs and the principles
+                    of Ayurveda
+                  </h4>
+                </div>
               </div>
-              <div class="text_col">
-                <div class="section_heading">
-                  <h2>
-                    Here are some expert tips to get the most out of your
-                    <br />
-                    <strong>Toffease candies:</strong>
-                  </h2>
+              <div class="card_item card_blue">
+                <div class="card_inner">
+                  <img src="./images/anis2.webp" alt="" />
+                  <h4>
+                    Nourish Your Body with Vegan, Natural and Plant-Based
+                    Solutions
+                  </h4>
                 </div>
-                <div class="feature_text_block">
-                  <h5>Follow the recommended <strong>dosage</strong></h5>
-                  <p>
-                    Our candies are formulated to provide the optimal dosage
-                    of Ayurvedic ingredients. Be sure to follow the
-                    recommended dosage on the package to get the most benefit.
-                    If you have any specific health concerns or are taking
-                    medication, it's important to consult with a healthcare
-                    professional before incorporating Toffease Ayurvedic
-                    candies into your routine.
-                  </p>
-                </div>
-                <div class="feature_text_block">
-                  <h5>Be <strong>consistent:</strong></h5>
-                  <p>
-                    Consistency is key when it comes to maintaining your
-                    health. Incorporate Toffease Ayurvedic candies into your
-                    daily routine to experience the full benefits.
-                  </p>
-                </div>
-                <div class="feature_text_block">
-                  <h5>Store <strong>properly:</strong></h5>
-                  <p>
-                    To maintain the freshness and potency of our candies,
-                    store them in a cool, dry place away from direct sunlight.
-                  </p>
-                </div>
-                <div class="feature_text_block">
-                  <h5>Use as a <strong>supplement:</strong></h5>
-                  <p>
-                    Toffease Ayurvedic candies are not intended to replace a
-                    healthy diet or medical treatment. They are designed to
-                    supplement your existing healthcare routine.
-                  </p>
+              </div>
+              <div class="card_item card_green">
+                <div class="card_inner">
+                  <img src="./images/anis3.webp" alt="" />
+                  <h4>
+                    Trusted and Tested for Quality with FSSAI, ISO and Clinical
+                    Approvals
+                  </h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="interesting_facts">
-      <div class="container">
-        <div class="bg_gray">
-          <div class="section_small_width">
-            <div class="row_d">
-              <div class="text_col">
-                <div class="section_heading">
-                  <h2>
-                    Here are some interesting facts and stats about Toffease:
-                  </h2>
-                  <p>
-                    We hope these facts and stats give you a better
-                    understanding of Toffease and our unique approach to
-                    healthcare. Thank you for choosing Toffease to support
-                    your health and well-being.
-                  </p>
+      </section>
+      <section class="expert_tips">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_small_width">
+              <div class="row_d">
+                <div class="img_col">
+                  <img src="./images/expert_tips.png" alt="" />
                 </div>
-                <div class="info_container">
-                  <div class="info_row row_d">
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Toffease candies</h4>
-                      </div>
-                      <p>
-                        are made using 100% natural and organic ingredients,
-                        without any artificial flavors, colors, or
-                        preservatives.
-                      </p>
-                    </div>
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Ayurveda</h4>
-                      </div>
-                      <p>
-                        the ancient Indian system of medicine, has been
-                        practiced for over 5,000 years and is still widely
-                        used today.
-                      </p>
-                    </div>
+                <div class="text_col">
+                  <div class="section_heading">
+                    <h2>
+                      Here are some expert tips to get the most out of your
+                      <br />
+                      <strong>Toffease candies:</strong>
+                    </h2>
                   </div>
-                  <div class="info_row row_d">
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Toffease candies</h4>
-                      </div>
-                      <p>
-                        are designed to supplement your existing healthcare
-                        routine and offer a convenient and delicious way to
-                        maintain your health and well-being.
-                      </p>
-                    </div>
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Toffease offers</h4>
-                      </div>
-                      <p>
-                        a range of candies, each with its unique set of health
-                        benefits. From immune-boosting candies to
-                        stress-relieving candies, there is a Toffease candy
-                        for everyone.
-                      </p>
-                    </div>
+                  <div class="feature_text_block">
+                    <h5>Follow the recommended <strong>dosage</strong></h5>
+                    <p>
+                      Our candies are formulated to provide the optimal dosage
+                      of Ayurvedic ingredients. Be sure to follow the
+                      recommended dosage on the package to get the most benefit.
+                      If you have any specific health concerns or are taking
+                      medication, it's important to consult with a healthcare
+                      professional before incorporating Toffease Ayurvedic
+                      candies into your routine.
+                    </p>
                   </div>
-                  <div class="info_row row_d">
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Toffease is committed</h4>
-                      </div>
-                      <p>
-                        to quality and transparency. All of our candies are
-                        made in small batches to ensure the highest quality,
-                        and we use only natural and organic ingredients.
-                      </p>
-                    </div>
-                    <div class="half_width_col">
-                      <div class="heading_icon d-flex align-items-center">
-                        <img class="icon_mega" src="./images/megaphone.png" alt="" />
-                        <h4>Toffease is a socially</h4>
-                      </div>
-                      <p>
-                        responsible company and is committed to giving back to
-                        the community. A portion of our profits goes towards
-                        supporting various social causes.
-                      </p>
-                    </div>
+                  <div class="feature_text_block">
+                    <h5>Be <strong>consistent:</strong></h5>
+                    <p>
+                      Consistency is key when it comes to maintaining your
+                      health. Incorporate Toffease Ayurvedic candies into your
+                      daily routine to experience the full benefits.
+                    </p>
                   </div>
-                </div>
-              </div>
-              <div class="img_col">
-                <img src="./images/interesting_facts.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="unique_twist">
-      <div class="container">
-        <div class="bg_white">
-          <div class="row_d">
-            <div class="text_col">
-              <div class="section_heading">
-                <span class="sub_heading">staying healthy with toffease</span>
-                <h2>A Unique Twist</h2>
-                <p>
-                  At Toffease, our unique approach to healthcare sets us apart
-                  from other brands. Our products are not just candies, but
-                  Ayurvedic candies that offer a revolutionary healthcare
-                  experience. Our candies are made with a blend of natural
-                  Ayurvedic ingredients that have been carefully selected for
-                  their medicinal properties, making them an effective
-                  supplement to your healthcare routine.
-                </p>
-                <p>
-                  <strong>Our Toffease</strong> candies have several unique
-                  selling points (USPs) that make them stand out in
-                  <strong>the market:</strong>
-                </p>
-              </div>
-
-              <div class="features_container">
-                <div class="features_items">
-                  <div class="d-flex">
-                    <div class="thumbs_div">
-                      <img src="./images/thumbs_up.png" alt="" />
-                    </div>
-                    <div class="text_col_inner">
-                      <h4>Delicious Taste:</h4>
-                      <p>
-                        Our candies are not only effective but also taste
-                        great. We have perfected the art of blending natural
-                        Ayurvedic ingredients with delicious flavors to create
-                        a candy that is both healthy and tasty.
-                      </p>
-                    </div>
+                  <div class="feature_text_block">
+                    <h5>Store <strong>properly:</strong></h5>
+                    <p>
+                      To maintain the freshness and potency of our candies,
+                      store them in a cool, dry place away from direct sunlight.
+                    </p>
                   </div>
-                </div>
-                <div class="features_items">
-                  <div class="d-flex">
-                    <div class="thumbs_div">
-                      <img src="./images/thumbs_up.png" alt="" />
-                    </div>
-                    <div class="text_col_inner">
-                      <h4>Natural and Organic:</h4>
-                      <p>
-                        We use only natural and organic ingredients in our
-                        candies, ensuring that our products are free from
-                        harmful chemicals and additives.
-                      </p>
-                    </div>
+                  <div class="feature_text_block">
+                    <h5>Use as a <strong>supplement:</strong></h5>
+                    <p>
+                      Toffease Ayurvedic candies are not intended to replace a
+                      healthy diet or medical treatment. They are designed to
+                      supplement your existing healthcare routine.
+                    </p>
                   </div>
-                </div>
-                <div class="features_items">
-                  <div class="d-flex">
-                    <div class="thumbs_div">
-                      <img src="./images/thumbs_up.png" alt="" />
-                    </div>
-                    <div class="text_col_inner">
-                      <h4>Convenient:</h4>
-                      <p>
-                        Our candies offer a convenient way to maintain your
-                        health and well-being. You can take them on the go and
-                        enjoy them anytime, anywhere.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="features_items">
-                  <div class="d-flex">
-                    <div class="thumbs_div">
-                      <img src="./images/thumbs_up.png" alt="" />
-                    </div>
-                    <div class="text_col_inner">
-                      <h4>Holistic Approach:</h4>
-                      <p>
-                        Our approach to healthcare is holistic, taking into
-                        account the mind, body, and spirit. We believe that
-                        true health and well-being come from a balance of
-                        these three elements.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="features_items">
-                  <div class="d-flex">
-                    <div class="thumbs_div">
-                      <img src="./images/thumbs_up.png" alt="" />
-                    </div>
-                    <div class="text_col_inner">
-                      <h4>Social Responsibility:</h4>
-                      <p>
-                        We are committed to giving back to the community and
-                        supporting various social causes. A portion of our
-                        profits goes towards supporting these causes.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="img_col">
-              <img src="./images/unique_twist.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="shop_first_section">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_small_width">
-            <div class="d-flex row__d">
-              <div class="single_item home_intro_wrapper first_column">
-                <a href="#" class="img_container">
-                  <img src="./images/shop1.png" alt="" />
-                  <div class="img_overlay">
-                    <div class="text_button">Preview product</div>
-                  </div>
-                </a>
-                <div class="text_wrapper">
-                  <div class="intro_block_title">
-                    <h4>MUMYUM</h4>
-                  </div>
-                  <p>
-                    A combination of Shatavari and Asparagus may regulate
-                    hormones and alleviate menopausal symptoms such as hot
-                    flashes and mood swings. These herbs will also reduce pain
-                    and discomfort associated with menopause. Incorporating
-                    them into your routine may promote overall well being and
-                    alleviate menopausal symptoms naturally.
-                  </p>
-                </div>
-              </div>
-              <div class="single_item home_intro_wrapper mid_column">
-                <a href="#" class="img_container">
-                  <img src="./images/shop2.png" alt="" />
-                  <div class="img_overlay">
-                    <div class="text_button">Preview product</div>
-                  </div>
-                </a>
-                <div class="text_wrapper">
-                  <div class="intro_block_title">
-                    <h4>CHUMYUM</h4>
-                  </div>
-                  <p>
-                    A herbal blend can alleviate premenstrual syndrome
-                    symptoms by lifting mood, easing pain, reducing
-                    inflammation and oxidative stress, promoting wellbeing,
-                    and managing menstrual pain and cramps. Incorporate it 4
-                    days prior, post and during your period cycle for natural
-                    and effective relief.
-                  </p>
-                </div>
-                <div class="text-center mt-5">
-                  <a class="btn_bg" href="">Open Shop</a>
-                </div>
-              </div>
-              <div class="single_item home_intro_wrapper last_column">
-                <a href="#" class="img_container">
-                  <img src="./images/shop3.png" alt="" />
-                  <div class="img_overlay">
-                    <div class="text_button">Preview product</div>
-                  </div>
-                </a>
-                <div class="text_wrapper">
-                  <div class="intro_block_title">
-                    <h4>LIVYUM</h4>
-                  </div>
-                  <p>
-                    A blend of Amalaki, Haritaki, Kasani, Himsarra, and
-                    Kakamachi may improve liver function by reducing
-                    inflammation and the risk of liver damage. These herbs are
-                    traditionally used to treat liver disorders, promote liver
-                    health and improve digestion. Incorporating them into your
-                    routine may naturally support liver health and promote
-                    overall well being.
-                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="empowering_lifestyle_section">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_small_width">
-            <div class="row_d">
-              <div class="img_col">
-                <img src="images/empowering_lifestyle.png" alt="" />
-              </div>
-              <div class="text_col">
-                <div class="text_inner_col">
-                  <h2 class="heading">Empowering Your Super Lifestyle</h2>
-                  <p>
-                    Our products are designed to elevate your lifestyle with
-                    happiness, ease, and style. Get things done while looking
-                    good and making a statement. Empower your super lifestyle
-                    with our premium products of Toffease.
-                  </p>
-                  <div class="text_small_img_inner">
-                    <div class="items text-center">
-                      <div>
-                        <img src="./images/small_img_inner1.png" alt="" />
-                      </div>
-                      <span>Vegan</span>
-                    </div>
-                    <div class="items text-center">
-                      <div>
-                        <img src="./images/small_img_inner2.png" alt="" />
-                      </div>
-                      <span>FSSAI Approved </span>
-                    </div>
-                    <div class="items text-center">
-                      <div>
-                        <img src="./images/small_img_inner3.png" alt="" />
-                      </div>
-                      <span>Gluten Free</span>
-                    </div>
-                  </div>
-                  <a href="" class="btn_bg btn_dark">Open Shop</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="welcome_toffease">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_small_width">
-            <div class="welcome_toffease_inner">
+      </section>
+      <section class="interesting_facts">
+        <div class="container">
+          <div class="bg_gray">
+            <div class="section_small_width">
               <div class="row_d">
                 <div class="text_col">
                   <div class="section_heading">
-                    <h2>Welcome to Toffease</h2>
+                    <h2>
+                      Here are some interesting facts and stats about Toffease:
+                    </h2>
+                    <p>
+                      We hope these facts and stats give you a better
+                      understanding of Toffease and our unique approach to
+                      healthcare. Thank you for choosing Toffease to support
+                      your health and well-being.
+                    </p>
                   </div>
-                  <p>
-                    Where we have revolutionised healthcare by combining the
-                    power of Toffease with the pleasure of candies. We are
-                    passionate about helping people maintain their health and
-                    well-being in a natural and delicious way
-                  </p>
+                  <div class="info_container">
+                    <div class="info_row row_d">
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Toffease candies</h4>
+                        </div>
+                        <p>
+                          are made using 100% natural and organic ingredients,
+                          without any artificial flavors, colors, or
+                          preservatives.
+                        </p>
+                      </div>
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Ayurveda</h4>
+                        </div>
+                        <p>
+                          the ancient Indian system of medicine, has been
+                          practiced for over 5,000 years and is still widely
+                          used today.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="info_row row_d">
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Toffease candies</h4>
+                        </div>
+                        <p>
+                          are designed to supplement your existing healthcare
+                          routine and offer a convenient and delicious way to
+                          maintain your health and well-being.
+                        </p>
+                      </div>
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Toffease offers</h4>
+                        </div>
+                        <p>
+                          a range of candies, each with its unique set of health
+                          benefits. From immune-boosting candies to
+                          stress-relieving candies, there is a Toffease candy
+                          for everyone.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="info_row row_d">
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Toffease is committed</h4>
+                        </div>
+                        <p>
+                          to quality and transparency. All of our candies are
+                          made in small batches to ensure the highest quality,
+                          and we use only natural and organic ingredients.
+                        </p>
+                      </div>
+                      <div class="half_width_col">
+                        <div class="heading_icon d-flex align-items-center">
+                          <img
+                            class="icon_mega"
+                            src="./images/megaphone.png"
+                            alt=""
+                          />
+                          <h4>Toffease is a socially</h4>
+                        </div>
+                        <p>
+                          responsible company and is committed to giving back to
+                          the community. A portion of our profits goes towards
+                          supporting various social causes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="img_col">
-                  <img src="./images/welcome_toffease.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="at_toffease_grid_col">
-              <div class="item">
-                <h4>At Toffease</h4>
-                <p>
-                  we believe in the healing power of nature and have harnessed
-                  this power to create Ayurvedic candies that are both
-                  effective and tasty. Our candies are made using the highest
-                  quality Ayurvedic ingredients, carefully selected for their
-                  medicinal properties and blended together to create unique
-                  and flavorful candy recipes.
-                </p>
-              </div>
-              <div class="item">
-                <h4>Our approach</h4>
-                <p>
-                  to healthcare is unique in that we believe in the natural
-                  healing properties of herbs and spices. We have combined
-                  this ancient wisdom with modern candy-making techniques to
-                  create a revolutionary healthcare experience. We believe
-                  that treating ailments should not only be effective but also
-                  enjoyable, and our Toffease candies provide just that.
-                </p>
-              </div>
-              <div class="item">
-                <h4>Our candies</h4>
-                <p>
-                  are designed to supplement your existing healthcare routine,
-                  offering a convenient and delicious way to maintain your
-                  health and well-being. Whether you are looking to boost your
-                  immunity, relieve stress, or improve digestion, we have
-                  candy for you.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="ui_elements">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_small_width m-auto">
-            <div class="innner_col_small">
-              <h2>Comes with ready to use <strong>UI elements.</strong></h2>
-              <p>
-                Don't worry about all the standard needed UI elements. We've
-                taken care of them. Just select the ones you need!
-              </p>
-              <a href="" class="btn_bg btn_dark">Open Shop</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="experts_at_toffease">
-      <div class="container">
-        <div class="bg_white">
-          <div class="section_heading text-center mb-5">
-            <h2>Talk to our experts at Toffease</h2>
-          </div>
-          <div class="row_d">
-            <div class="item">
-              <div class="item_inner">
-                <div class="img">
-                  <img src="./images/experts_1.png" alt="" />
-                </div>
-                <div class="text_col">
-                  <h4>Consult for free</h4>
-                  <a href="" class="btn_bg btn_small">Contact</a>
-                </div>
-              </div>
-            </div>
-            <div class="item item_second">
-              <div class="item_inner">
-                <div class="text_col">
-                  <h4>Assess myself</h4>
-                  <a href="" class="btn_bg btn_small">Contact</a>
-                </div>
-                <div class="img">
-                  <img src="./images/experts_2.png" alt="" />
+                  <img src="./images/interesting_facts.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
+      </section>
+      <section class="unique_twist">
+        <div class="container">
+          <div class="bg_white">
+            <div class="row_d">
+              <div class="text_col">
+                <div class="section_heading">
+                  <span class="sub_heading">staying healthy with toffease</span>
+                  <h2>A Unique Twist</h2>
+                  <p>
+                    At Toffease, our unique approach to healthcare sets us apart
+                    from other brands. Our products are not just candies, but
+                    Ayurvedic candies that offer a revolutionary healthcare
+                    experience. Our candies are made with a blend of natural
+                    Ayurvedic ingredients that have been carefully selected for
+                    their medicinal properties, making them an effective
+                    supplement to your healthcare routine.
+                  </p>
+                  <p>
+                    <strong>Our Toffease</strong> candies have several unique
+                    selling points (USPs) that make them stand out in
+                    <strong>the market:</strong>
+                  </p>
+                </div>
 
-  <footer>
-    <div class="container">
-      <div class="row_d">
-        <div class="form_column">
-          <div class="inner_text">
-            <h3>Keep in touch and receive fun updates!</h3>
-            <form>
-              <input class="mail_field" type="email" name="" id="" placeholder="Enter your email here ..." required />
-              <input class="button_submit" type="submit" value="Sign Up" />
-            </form>
-            <div class="social_col">
-              <ul class="social_ul d-flex">
-                <li>
-                  <a class="" href="">
-                    <i class="fa-brands fa-instagram"></i>
+                <div class="features_container">
+                  <div class="features_items">
+                    <div class="d-flex">
+                      <div class="thumbs_div">
+                        <img src="./images/thumbs_up.png" alt="" />
+                      </div>
+                      <div class="text_col_inner">
+                        <h4>Delicious Taste:</h4>
+                        <p>
+                          Our candies are not only effective but also taste
+                          great. We have perfected the art of blending natural
+                          Ayurvedic ingredients with delicious flavors to create
+                          a candy that is both healthy and tasty.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="features_items">
+                    <div class="d-flex">
+                      <div class="thumbs_div">
+                        <img src="./images/thumbs_up.png" alt="" />
+                      </div>
+                      <div class="text_col_inner">
+                        <h4>Natural and Organic:</h4>
+                        <p>
+                          We use only natural and organic ingredients in our
+                          candies, ensuring that our products are free from
+                          harmful chemicals and additives.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="features_items">
+                    <div class="d-flex">
+                      <div class="thumbs_div">
+                        <img src="./images/thumbs_up.png" alt="" />
+                      </div>
+                      <div class="text_col_inner">
+                        <h4>Convenient:</h4>
+                        <p>
+                          Our candies offer a convenient way to maintain your
+                          health and well-being. You can take them on the go and
+                          enjoy them anytime, anywhere.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="features_items">
+                    <div class="d-flex">
+                      <div class="thumbs_div">
+                        <img src="./images/thumbs_up.png" alt="" />
+                      </div>
+                      <div class="text_col_inner">
+                        <h4>Holistic Approach:</h4>
+                        <p>
+                          Our approach to healthcare is holistic, taking into
+                          account the mind, body, and spirit. We believe that
+                          true health and well-being come from a balance of
+                          these three elements.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="features_items">
+                    <div class="d-flex">
+                      <div class="thumbs_div">
+                        <img src="./images/thumbs_up.png" alt="" />
+                      </div>
+                      <div class="text_col_inner">
+                        <h4>Social Responsibility:</h4>
+                        <p>
+                          We are committed to giving back to the community and
+                          supporting various social causes. A portion of our
+                          profits goes towards supporting these causes.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="img_col">
+                <img src="./images/unique_twist.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="shop_first_section">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_small_width">
+              <div class="d-flex row__d">
+                <div class="single_item home_intro_wrapper first_column">
+                  <a href="#" class="img_container">
+                    <img src="./images/shop1.png" alt="" />
+                    <div class="img_overlay">
+                      <div class="text_button">Preview product</div>
+                    </div>
                   </a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-twitter"></i></a>
-                </li>
-              </ul>
+                  <div class="text_wrapper">
+                    <div class="intro_block_title">
+                      <h4>MUMYUM</h4>
+                    </div>
+                    <p>
+                      A combination of Shatavari and Asparagus may regulate
+                      hormones and alleviate menopausal symptoms such as hot
+                      flashes and mood swings. These herbs will also reduce pain
+                      and discomfort associated with menopause. Incorporating
+                      them into your routine may promote overall well being and
+                      alleviate menopausal symptoms naturally.
+                    </p>
+                  </div>
+                </div>
+                <div class="single_item home_intro_wrapper mid_column">
+                  <a href="#" class="img_container">
+                    <img src="./images/shop2.png" alt="" />
+                    <div class="img_overlay">
+                      <div class="text_button">Preview product</div>
+                    </div>
+                  </a>
+                  <div class="text_wrapper">
+                    <div class="intro_block_title">
+                      <h4>CHUMYUM</h4>
+                    </div>
+                    <p>
+                      A herbal blend can alleviate premenstrual syndrome
+                      symptoms by lifting mood, easing pain, reducing
+                      inflammation and oxidative stress, promoting wellbeing,
+                      and managing menstrual pain and cramps. Incorporate it 4
+                      days prior, post and during your period cycle for natural
+                      and effective relief.
+                    </p>
+                  </div>
+                  <div class="text-center mt-5">
+                    <a class="btn_bg" href="">Open Shop</a>
+                  </div>
+                </div>
+                <div class="single_item home_intro_wrapper last_column">
+                  <a href="#" class="img_container">
+                    <img src="./images/shop3.png" alt="" />
+                    <div class="img_overlay">
+                      <div class="text_button">Preview product</div>
+                    </div>
+                  </a>
+                  <div class="text_wrapper">
+                    <div class="intro_block_title">
+                      <h4>LIVYUM</h4>
+                    </div>
+                    <p>
+                      A blend of Amalaki, Haritaki, Kasani, Himsarra, and
+                      Kakamachi may improve liver function by reducing
+                      inflammation and the risk of liver damage. These herbs are
+                      traditionally used to treat liver disorders, promote liver
+                      health and improve digestion. Incorporating them into your
+                      routine may naturally support liver health and promote
+                      overall well being.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h2>Customer Support Center</h2>
-            <div class="time_address_footer">
-              <p>Monday – Friday</p>
-              <p>10am – 6pm IST</p>
-              <a href="mailto:info@toffease.com">info@toffease.com</a>
-              <a href="tel:+91 98717 89996">+91 98717 89996</a>
+          </div>
+        </div>
+      </section>
+      <section class="empowering_lifestyle_section">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_small_width">
+              <div class="row_d">
+                <div class="img_col">
+                  <img src="images/empowering_lifestyle.png" alt="" />
+                </div>
+                <div class="text_col">
+                  <div class="text_inner_col">
+                    <h2 class="heading">Empowering Your Super Lifestyle</h2>
+                    <p>
+                      Our products are designed to elevate your lifestyle with
+                      happiness, ease, and style. Get things done while looking
+                      good and making a statement. Empower your super lifestyle
+                      with our premium products of Toffease.
+                    </p>
+                    <div class="text_small_img_inner">
+                      <div class="items text-center">
+                        <div>
+                          <img src="./images/small_img_inner1.png" alt="" />
+                        </div>
+                        <span>Vegan</span>
+                      </div>
+                      <div class="items text-center">
+                        <div>
+                          <img src="./images/small_img_inner2.png" alt="" />
+                        </div>
+                        <span>FSSAI Approved </span>
+                      </div>
+                      <div class="items text-center">
+                        <div>
+                          <img src="./images/small_img_inner3.png" alt="" />
+                        </div>
+                        <span>Gluten Free</span>
+                      </div>
+                    </div>
+                    <a href="" class="btn_bg btn_dark">Open Shop</a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <p id="mobile_copyright_text" class="copyright_text">
+          </div>
+        </div>
+      </section>
+      <section class="welcome_toffease">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_small_width">
+              <div class="welcome_toffease_inner">
+                <div class="row_d">
+                  <div class="text_col">
+                    <div class="section_heading">
+                      <h2>Welcome to Toffease</h2>
+                    </div>
+                    <p>
+                      Where we have revolutionised healthcare by combining the
+                      power of Toffease with the pleasure of candies. We are
+                      passionate about helping people maintain their health and
+                      well-being in a natural and delicious way
+                    </p>
+                  </div>
+                  <div class="img_col">
+                    <img src="./images/welcome_toffease.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="at_toffease_grid_col">
+                <div class="item">
+                  <h4>At Toffease</h4>
+                  <p>
+                    we believe in the healing power of nature and have harnessed
+                    this power to create Ayurvedic candies that are both
+                    effective and tasty. Our candies are made using the highest
+                    quality Ayurvedic ingredients, carefully selected for their
+                    medicinal properties and blended together to create unique
+                    and flavorful candy recipes.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Our approach</h4>
+                  <p>
+                    to healthcare is unique in that we believe in the natural
+                    healing properties of herbs and spices. We have combined
+                    this ancient wisdom with modern candy-making techniques to
+                    create a revolutionary healthcare experience. We believe
+                    that treating ailments should not only be effective but also
+                    enjoyable, and our Toffease candies provide just that.
+                  </p>
+                </div>
+                <div class="item">
+                  <h4>Our candies</h4>
+                  <p>
+                    are designed to supplement your existing healthcare routine,
+                    offering a convenient and delicious way to maintain your
+                    health and well-being. Whether you are looking to boost your
+                    immunity, relieve stress, or improve digestion, we have
+                    candy for you.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ui_elements">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_small_width m-auto">
+              <div class="innner_col_small">
+                <h2>Comes with ready to use <strong>UI elements.</strong></h2>
+                <p>
+                  Don't worry about all the standard needed UI elements. We've
+                  taken care of them. Just select the ones you need!
+                </p>
+                <a href="" class="btn_bg btn_dark">Open Shop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experts_at_toffease">
+        <div class="container">
+          <div class="bg_white">
+            <div class="section_heading text-center mb-5">
+              <h2>Talk to our experts at Toffease</h2>
+            </div>
+            <div class="row_d">
+              <div class="item">
+                <div class="item_inner">
+                  <div class="img">
+                    <img src="./images/experts_1.png" alt="" />
+                  </div>
+                  <div class="text_col">
+                    <h4>Consult for free</h4>
+                    <a href="" class="btn_bg btn_small">Contact</a>
+                  </div>
+                </div>
+              </div>
+              <div class="item item_second">
+                <div class="item_inner">
+                  <div class="text_col">
+                    <h4>Assess myself</h4>
+                    <a href="" class="btn_bg btn_small">Contact</a>
+                  </div>
+                  <div class="img">
+                    <img src="./images/experts_2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="row_d">
+          <div class="form_column">
+            <div class="inner_text">
+              <h3>Keep in touch and receive fun updates!</h3>
+              <form>
+                <input
+                  class="mail_field"
+                  type="email"
+                  name=""
+                  id=""
+                  placeholder="Enter your email here ..."
+                  required
+                />
+                <input class="button_submit" type="submit" value="Sign Up" />
+              </form>
+              <div class="social_col">
+                <ul class="social_ul d-flex">
+                  <li>
+                    <a class="" href="">
+                      <i class="fa-brands fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <h2>Customer Support Center</h2>
+              <div class="time_address_footer">
+                <p>Monday – Friday</p>
+                <p>10am – 6pm IST</p>
+                <a href="mailto:info@toffease.com">info@toffease.com</a>
+                <a href="tel:+91 98717 89996">+91 98717 89996</a>
+              </div>
+              <p id="mobile_copyright_text" class="copyright_text">
+                Copyright © 2023
+                <a class="copyright_a" href="">Toffease</a>
+                <a class="copyright_a" href="">Made by Wizbytes</a>
+              </p>
+            </div>
+          </div>
+          <div class="footer_text_column">
+            <div class="inner_text_col">
+              <div class="parent_col d-flex">
+                <div class="item">
+                  <h4>Company</h4>
+                  <ul>
+                    <li class="active"><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Journal</a></li>
+                    <li><a href="">Reviews</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="item">
+                  <h4>Customer Care</h4>
+                  <ul>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">FAQ</a></li>
+                  </ul>
+                </div>
+                <div class="item">
+                  <h4>Shop</h4>
+                  <ul>
+                    <li><a href="">Shop all</a></li>
+                    <li><a href="">Candies</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <p id="desktop_copyright_text" class="copyright_text">
               Copyright © 2023
               <a class="copyright_a" href="">Toffease</a>
               <a class="copyright_a" href="">Made by Wizbytes</a>
             </p>
           </div>
         </div>
-        <div class="footer_text_column">
-          <div class="inner_text_col">
-            <div class="parent_col d-flex">
-              <div class="item">
-                <h4>Company</h4>
-                <ul>
-                  <li class="active"><a href="">Home</a></li>
-                  <li><a href="">About us</a></li>
-                  <li><a href="">Journal</a></li>
-                  <li><a href="">Reviews</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul>
-              </div>
-              <div class="item">
-                <h4>Customer Care</h4>
-                <ul>
-                  <li><a href="">Terms and Conditions</a></li>
-                  <li><a href="">FAQ</a></li>
-                </ul>
-              </div>
-              <div class="item">
-                <h4>Shop</h4>
-                <ul>
-                  <li><a href="">Shop all</a></li>
-                  <li><a href="">Candies</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <p id="desktop_copyright_text" class="copyright_text">
-            Copyright © 2023
-            <a class="copyright_a" href="">Toffease</a>
-            <a class="copyright_a" href="">Made by Wizbytes</a>
-          </p>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- AOS data -->
-  <script src="./js/aos.js"></script>
+    <!-- AOS data -->
+    <script src="./js/aos.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="./js/jquery.counterup.min.js"></script>
-  <script src="./js/waypoints.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
 
-  <script src="./js/index.js"></script>
-</body>
-
+    <script src="./js/index.js"></script>
+  </body>
 </html>

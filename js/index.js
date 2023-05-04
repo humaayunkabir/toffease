@@ -161,7 +161,6 @@ $('.slider').slick({
 });
 $('.slider').on('afterChange', function (event, slick, currentSlide, nextSlide) {
     var currentSlide = $('.slider').slick('slickCurrentSlide');
-    // console.log(currentSlide);
     if (currentSlide == 0) {
         $('body').css('background-color', 'rgb(255, 230, 234)');
     } else if (currentSlide == 1) {
@@ -185,9 +184,53 @@ jQuery(".nav_icon").click(function () {
 });
 jQuery(window).scroll(function () {
     var scroll = jQuery(window).scrollTop();
-    if (scroll >= 200) {
+    if (scroll >= 230) {
         jQuery("div.topnav").addClass("white_header");
     } else {
         jQuery("div.topnav").removeClass("white_header");
     }
+});
+
+
+
+
+
+
+/*================ Mixitup ================*/
+$(document).ready(function () {
+    var mixer = mixitup('.box-list')
+})
+
+
+
+
+
+
+
+
+
+/*================ Image vertically moving (scroll) ================*/
+$(window).on("load resize scroll", function () {
+    $(".img_col, .animated_parent").each(function () {
+        var windowTop = $(window).scrollTop();
+        var elementTop = $(this).offset().top;
+        var leftPosition = windowTop - elementTop;
+        $(this)
+            .find(".bg_move,.animated_item")
+            .css({
+                bottom: leftPosition
+            });
+    });
+});
+$(window).on("load resize scroll", function () {
+    $(".animated_parent_bottom").each(function () {
+        var windowTop = $(window).scrollTop();
+        var elementTop = $(this).offset().top;
+        var leftPosition = windowTop - elementTop;
+        $(this)
+            .find(".bg_move_bottom")
+            .css({
+                top: leftPosition
+            });
+    });
 });

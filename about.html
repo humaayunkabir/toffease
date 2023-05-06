@@ -1,160 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
-    <title>Toffease - Your Health Companion!</title>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
-    />
-    <link rel="stylesheet" href="./styles/style.css" />
-  </head>
 
-  <body id="body" class="body_bg_none">
-    <header class="sticky-top">
-      <div id="dropdown_container">
-        <div class="dropdown_container_second">
-          <div class="dropdown_container_innner">
-            <div class="breadcrumb-navi">
-              <p class="d-flex">
-                © 2023 All Rights Reserved by <a href="#">wizbytes</a>
-              </p>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+  <title>Toffease - Your Health Companion!</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body id="body" class="body_bg_none">
+  <header class="sticky-top">
+    <div id="dropdown_container">
+      <div class="dropdown_container_second">
+        <div class="dropdown_container_innner">
+          <div class="breadcrumb-navi">
+            <p class="d-flex">
+              © 2023 All Rights Reserved by <a href="#">wizbytes</a>
+            </p>
+          </div>
+          <div class="dropdown__inner">
+            <div class="nav_col">
+              <ul>
+                <li data-aos="fade-in">
+                  <a class="text_wrap" href="index.html">
+                    <h1 class="effect-1">HOME</h1>
+                    <h1 class="effect-1 hover">HOME</h1>
+                  </a>
+                </li>
+                <li data-aos="fade-in">
+                  <a class="text_wrap" href="shop.html">
+                    <h1 class="effect-1">PRODUCTS</h1>
+                    <h1 class="effect-1 hover">PRODUCTS</h1>
+                    <span class="sup_absolute">03</span>
+                  </a>
+                </li>
+                <li>
+                  <a class="text_wrap" href="about.html">
+                    <h1 class="effect-1 active">ABOUT US</h1>
+                    <h1 class="effect-1 hover">ABOUT US</h1>
+                  </a>
+                </li>
+                <li data-aos="fade-in">
+                  <a class="text_wrap" href="journal.html">
+                    <h1 class="effect-1">JOURNAL</h1>
+                    <h1 class="effect-1 hover">JOURNAL</h1>
+                  </a>
+                </li>
+                <li>
+                  <a class="text_wrap" href="contact.html">
+                    <h1 class="effect-1">CONTACT</h1>
+                    <h1 class="effect-1 hover">CONTACT</h1>
+                  </a>
+                </li>
+              </ul>
+              <ul class="last_col" data-aos="fade-in">
+                <li><a href="">FAQ</a></li>
+                <li><a href="">Reviews</a></li>
+                <li><a href="">Terms and Conditions</a></li>
+              </ul>
             </div>
-            <div class="dropdown__inner">
-              <div class="nav_col">
-                <ul>
-                  <li data-aos="fade-in">
-                    <a class="text_wrap" href="index.html">
-                      <h1 class="effect-1">HOME</h1>
-                      <h1 class="effect-1 hover">HOME</h1>
-                    </a>
-                  </li>
-                  <li data-aos="fade-in">
-                    <a class="text_wrap" href="shop.html">
-                      <h1 class="effect-1">PRODUCTS</h1>
-                      <h1 class="effect-1 hover">PRODUCTS</h1>
-                      <span class="sup_absolute">03</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="text_wrap" href="about.html">
-                      <h1 class="effect-1 active">ABOUT US</h1>
-                      <h1 class="effect-1 hover">ABOUT US</h1>
-                    </a>
-                  </li>
-                  <li data-aos="fade-in">
-                    <a class="text_wrap" href="">
-                      <h1 class="effect-1">JOURNAL</h1>
-                      <h1 class="effect-1 hover">JOURNAL</h1>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="text_wrap" href="">
-                      <h1 class="effect-1">CONTACT</h1>
-                      <h1 class="effect-1 hover">CONTACT</h1>
-                    </a>
-                  </li>
-                </ul>
-                <ul class="last_col" data-aos="fade-in">
-                  <li><a href="">FAQ</a></li>
-                  <li><a href="">Reviews</a></li>
-                  <li><a href="">Terms and Conditions</a></li>
-                </ul>
-              </div>
-              <div class="social_col">
-                <h3>Follow us</h3>
-                <ul>
-                  <li>
-                    <a class="active" href="">
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                </ul>
-                <div class="line-left-navi" style="opacity: 1"></div>
-              </div>
-              <div class="instagram_post_wrapper">
-                <div class="line-left-navi" style="opacity: 1"></div>
-                <div id="instagram_post_wrapper_inner">
-                  <div class="insta_post_parent">
-                    <div class="post_item">
-                      <a href="">
-                        <div class="inner_col">
-                          <img src="./images/insta1.png" alt="" />
-                          <div class="icon_and_text">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p>@Toffease</p>
-                          </div>
+            <div class="social_col">
+              <h3>Follow us</h3>
+              <ul>
+                <li>
+                  <a class="active" href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+              <div class="line-left-navi" style="opacity: 1"></div>
+            </div>
+            <div class="instagram_post_wrapper">
+              <div class="line-left-navi" style="opacity: 1"></div>
+              <div id="instagram_post_wrapper_inner">
+                <div class="insta_post_parent">
+                  <div class="post_item">
+                    <a href="">
+                      <div class="inner_col">
+                        <img src="./images/insta1.png" alt="" />
+                        <div class="icon_and_text">
+                          <i class="fa-brands fa-instagram"></i>
+                          <p>@Toffease</p>
                         </div>
-                      </a>
-                    </div>
-                    <div class="post_item">
-                      <a href="">
-                        <div class="inner_col">
-                          <img src="./images/insta2.png" alt="" />
-                          <div class="icon_and_text">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p>@Toffease</p>
-                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post_item">
+                    <a href="">
+                      <div class="inner_col">
+                        <img src="./images/insta2.png" alt="" />
+                        <div class="icon_and_text">
+                          <i class="fa-brands fa-instagram"></i>
+                          <p>@Toffease</p>
                         </div>
-                      </a>
-                    </div>
-                    <div class="post_item">
-                      <a href="">
-                        <div class="inner_col">
-                          <img src="./images/insta3.png" alt="" />
-                          <div class="icon_and_text">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p>@Toffease</p>
-                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post_item">
+                    <a href="">
+                      <div class="inner_col">
+                        <img src="./images/insta3.png" alt="" />
+                        <div class="icon_and_text">
+                          <i class="fa-brands fa-instagram"></i>
+                          <p>@Toffease</p>
                         </div>
-                      </a>
-                    </div>
-                    <div class="post_item">
-                      <a href="">
-                        <div class="inner_col">
-                          <img src="./images/insta1.png" alt="" />
-                          <div class="icon_and_text">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p>@Toffease</p>
-                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post_item">
+                    <a href="">
+                      <div class="inner_col">
+                        <img src="./images/insta1.png" alt="" />
+                        <div class="icon_and_text">
+                          <i class="fa-brands fa-instagram"></i>
+                          <p>@Toffease</p>
                         </div>
-                      </a>
-                    </div>
-                    <div class="post_item">
-                      <a href="">
-                        <div class="inner_col">
-                          <img src="./images/insta2.png" alt="" />
-                          <div class="icon_and_text">
-                            <i class="fa-brands fa-instagram"></i>
-                            <p>@Toffease</p>
-                          </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="post_item">
+                    <a href="">
+                      <div class="inner_col">
+                        <img src="./images/insta2.png" alt="" />
+                        <div class="icon_and_text">
+                          <i class="fa-brands fa-instagram"></i>
+                          <p>@Toffease</p>
                         </div>
-                      </a>
-                    </div>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -162,303 +150,294 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="topnav">
-          <div class="d-flex align-items-center justify-content-between">
-            <div class="d-flex align-items-center">
-              <a
-                href="#"
-                class="nav_icon hamburger_btn"
-                onclick="toggleButton()"
-              >
-                <div class="close_top"></div>
-                <div class="close_bottom"></div>
-              </a>
-              <a href="index.html" class="logo ms-5">
-                <img src="./images/logo.svg" alt="" />
-              </a>
-            </div>
-            <a href="#" class="cart_btn hamburger_btn">
-              <p class="cart_quantity">0</p>
-              <img src="./images/shopping-basket.svg" alt="" />
+    </div>
+    <div class="container">
+      <div class="topnav">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <a href="#" class="nav_icon hamburger_btn" onclick="toggleButton()">
+              <div class="close_top"></div>
+              <div class="close_bottom"></div>
+            </a>
+            <a href="index.html" class="logo ms-5">
+              <img src="./images/logo.svg" alt="" />
             </a>
           </div>
+          <a href="#" class="cart_btn hamburger_btn">
+            <p class="cart_quantity">0</p>
+            <img src="./images/shopping-basket.svg" alt="" />
+          </a>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <main>
-      <section class="our_story_top_section">
-        <div>
-          <img src="./images/our_story_text.svg" alt="" />
-        </div>
-      </section>
-      <section class="toffease_about">
-        <div class="container">
-          <div class="section_small_width animated_parent_bottom">
-            <div class="row_d">
-              <div class="img_col">
-                <div class="bg_move_bottom">
-                  <div class="bg_move_bottom_img"></div>
-                  <!--  <img
+  <main>
+    <section class="our_story_top_section top_padding_mobile">
+      <div>
+        <img src="./images/our_story_text.svg" alt="" />
+      </div>
+    </section>
+    <section class="toffease_about">
+      <div class="container">
+        <div class="section_small_width animated_parent_bottom">
+          <div class="row_d">
+            <div class="img_col">
+              <div class="bg_move_bottom">
+                <div class="bg_move_bottom_img"></div>
+                <!--  <img
                       class="animated_item"
                       src="./images/about_toffease_1.webp"
                       alt=""
                     /> -->
-                </div>
               </div>
-              <div class="text_col">
-                <div class="inner_text">
-                  <h2>Toffease</h2>
-                  <p>
-                    Welcome to our revolutionary healthcare company that brings
-                    together the goodness of Ayurveda and the convenience of
-                    candies. We believe that health is wealth, and our mission
-                    is to help people maintain their health and well-being with
-                    the power of nature.
-                  </p>
-                </div>
+            </div>
+            <div class="text_col">
+              <div class="inner_text">
+                <h2>Toffease</h2>
+                <p>
+                  Welcome to our revolutionary healthcare company that brings
+                  together the goodness of Ayurveda and the convenience of
+                  candies. We believe that health is wealth, and our mission
+                  is to help people maintain their health and well-being with
+                  the power of nature.
+                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <section class="founder_section animated_parent">
-        <div class="container">
-          <div class="bg_pink common_padding_all">
-            <div class="row_d">
-              <div class="text_col">
-                <div class="animated_item">
-                  <div class="margin-top_inner">
-                    <h2>Our <br />Founder</h2>
-                    <p>
-                      Drawing from her own experience, she created a brand of
-                      candies designed specifically to alleviate the pain
-                      associated with menstruation, but with a wider focus on
-                      providing natural and effective solutions for various
-                      health issues. Her product has gained popularity among
-                      people seeking a natural and effective solution for their
-                      health concerns.
-                      <br />
-                      <br />
-                      Through her dedication and hard work, the founder has
-                      successfully built a brand that not only provides a
-                      valuable product but also empowers people to take control
-                      of their health. Her unique blend of education and
-                      personal experience has given her a deep understanding of
-                      the needs of people, which has helped her create a product
-                      that meets those needs.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="img_col">
-                <div class="img_bg_color">
-                  <div class="rotated_content">
-                    <img src="./images/Frame_female_1.png" alt="" />
-                  </div>
-                </div>
-                <div class="bg_move"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="dr_details_section">
-        <div class="container">
-          <div class="body_bg_none">
-            <div class="item">
-              <div class="row_d">
-                <div class="text_col first_col">
-                  <div class="heading_container">
-                    <h4 class="sub_heading">Medical Physicians</h4>
-                    <h2 class="heading">Dr. Rupesh Chandra</h2>
-                  </div>
-                  <p>
-                    Dr. Rupesh Chandra is a highly motivated and multi-skilled
-                    medical physician with 7 years of experience in renowned
-                    hospitals at center of excellence and healthcare management
-                    companies across the nation. He is a former Assistant
-                    Director at a reputed medical college in Dehradun, UK. He
-                    specializes in critical care management, as ICU
-                    Interventionist, OT procedures, central venous and arterial
-                    cannulations, and expertly manages cases in emergency
-                    medicine. Dr. Chandra also has experience in managing pain
-                    and sedation in critical care settings, handling emergency
-                    cases, and routine medicine cases.
-                    <br />
-                    <br />
-                    Dr. Chandra's academic qualifications include an M.B.B.S
-                    from JJMMC, Davangere, and a M.D degree from prestigious
-                    Maulana Azad Medical College, New Delhi and done his
-                    residency from AlIMS, New Delhi. He is working as
-                    medicolegal specialist and having extensive experience in
-                    dealing with medicolegal cases. Dr. Chandra is a lifetime
-                    member of Medicolegal society of Delhi and registered with
-                    the DMC and NMC (formerly MCI). He holds certifications in
-                    ACLS and BLS from LNJP Hospital, New Delhi. He has also
-                    attended several conferences and workshops related to
-                    medical emergency management, legal issues in medical and
-                    dental practices, DNA technology and Role of DNA
-                    fingerprintings in crime and justice.
-                  </p>
-                </div>
-                <div class="img_col second_col">
-                  <img src="./images/dr_1.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="row_d">
-                <div class="img_col first_col">
-                  <img src="./images/dr_2.jpg" alt="" />
-                </div>
-                <div class="text_col second_col">
-                  <div class="heading_container">
-                    <h4 class="sub_heading">Ayurvedic Physician</h4>
-                    <h2 class="heading">Dr. Anshika Vishwakarma</h2>
-                  </div>
-                  <p>
-                    Dr. Anshika Vishwakarma is a skilled Ayurvedic Physician
-                    with a passion for promoting health and well-being in the
-                    community. She has completed her Bachelor of Ayurvedic
-                    Medicine & Surgery (BAMS) from RDMC Ayurvedic College and
-                    Hospital and has additional qualifications from various
-                    organizations.
-                    <br />
-                    <br />
-                    Dr. Vishwakarma has worked as a Senior Research Fellow (SRF)
-                    on the Non-Communicable Disease (NCD) Project for Lower
-                    Economic People under SCSP Programme led by AYUSH Ministry.
-                    She has also worked as a Resident Medical Officer (RMO) at
-                    the Labor Room, Labor OT, Post-Operative Ward in the OBG/GYN
-                    department at Rathi Hospital, Delhi.
-                    <br />
-                    <br />
-                    Furthermore, she has extensive experience in conducting
-                    clinical trials and research, managing junior doctors, lab
-                    technicians, pharmacists, data entry operators, and MTAs.
-                    Dr. Vishwakarma is skilled in managing anaemia,
-                    gynaecological, and gastroenterological cases.
-                    <br />
-                    <br />
-                    She has attended numerous conferences and has received
-                    several certifications, including the largest class of
-                    CHARAK SAMHITA, Niramaya, A approach to Women's health
-                    through Ayurveda, and many more. Dr. Vishwakarma also has a
-                    keen interest in promoting hygiene and good health.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer>
+      </div>
+    </section>
+    <section class="founder_section animated_parent">
       <div class="container">
-        <div class="row_d">
-          <div class="form_column">
-            <div class="inner_text">
-              <h3>Keep in touch and receive fun updates!</h3>
-              <form>
-                <input
-                  class="mail_field"
-                  type="email"
-                  name=""
-                  id=""
-                  placeholder="Enter your email here ..."
-                  required
-                />
-                <input class="button_submit" type="submit" value="Sign Up" />
-              </form>
-              <div class="social_col">
-                <ul class="social_ul d-flex">
-                  <li>
-                    <a class="" href="">
-                      <i class="fa-brands fa-instagram"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                    <a href=""><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                </ul>
+        <div class="bg_pink common_padding_all">
+          <div class="row_d">
+            <div class="text_col">
+              <div class="animated_item">
+                <div class="margin-top_inner">
+                  <h2>Our <br />Founder</h2>
+                  <p>
+                    Drawing from her own experience, she created a brand of
+                    candies designed specifically to alleviate the pain
+                    associated with menstruation, but with a wider focus on
+                    providing natural and effective solutions for various
+                    health issues. Her product has gained popularity among
+                    people seeking a natural and effective solution for their
+                    health concerns.
+                    <br />
+                    <br />
+                    Through her dedication and hard work, the founder has
+                    successfully built a brand that not only provides a
+                    valuable product but also empowers people to take control
+                    of their health. Her unique blend of education and
+                    personal experience has given her a deep understanding of
+                    the needs of people, which has helped her create a product
+                    that meets those needs.
+                  </p>
+                </div>
               </div>
-              <h2>Customer Support Center</h2>
-              <div class="time_address_footer">
-                <p>Monday – Friday</p>
-                <p>10am – 6pm IST</p>
-                <a href="mailto:info@toffease.com">info@toffease.com</a>
-                <a href="tel:+91 98717 89996">+91 98717 89996</a>
+            </div>
+            <div class="img_col">
+              <div class="img_bg_color">
+                <div class="rotated_content">
+                  <img src="./images/Frame_female_1.png" alt="" />
+                </div>
               </div>
-              <p id="mobile_copyright_text" class="copyright_text">
-                Copyright © 2023
-                <a class="copyright_a" href="">Toffease</a>
-                <a class="copyright_a" href="">Made by Wizbytes</a>
-              </p>
+              <div class="bg_move"></div>
             </div>
           </div>
-          <div class="footer_text_column">
-            <div class="inner_text_col">
-              <div class="parent_col d-flex">
-                <div class="item">
-                  <h4>Company</h4>
-                  <ul>
-                    <li class="active"><a href="">Home</a></li>
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Journal</a></li>
-                    <li><a href="">Reviews</a></li>
-                    <li><a href="">Contact</a></li>
-                  </ul>
+        </div>
+      </div>
+    </section>
+    <section class="dr_details_section">
+      <div class="container">
+        <div class="body_bg_none">
+          <div class="item">
+            <div class="row_d">
+              <div class="text_col first_col">
+                <div class="heading_container">
+                  <h4 class="sub_heading">Medical Physicians</h4>
+                  <h2 class="heading">Dr. Rupesh Chandra</h2>
                 </div>
-                <div class="item">
-                  <h4>Customer Care</h4>
-                  <ul>
-                    <li><a href="">Terms and Conditions</a></li>
-                    <li><a href="">FAQ</a></li>
-                  </ul>
-                </div>
-                <div class="item">
-                  <h4>Shop</h4>
-                  <ul>
-                    <li><a href="">Shop all</a></li>
-                    <li><a href="">Candies</a></li>
-                  </ul>
-                </div>
+                <p>
+                  Dr. Rupesh Chandra is a highly motivated and multi-skilled
+                  medical physician with 7 years of experience in renowned
+                  hospitals at center of excellence and healthcare management
+                  companies across the nation. He is a former Assistant
+                  Director at a reputed medical college in Dehradun, UK. He
+                  specializes in critical care management, as ICU
+                  Interventionist, OT procedures, central venous and arterial
+                  cannulations, and expertly manages cases in emergency
+                  medicine. Dr. Chandra also has experience in managing pain
+                  and sedation in critical care settings, handling emergency
+                  cases, and routine medicine cases.
+                  <br />
+                  <br />
+                  Dr. Chandra's academic qualifications include an M.B.B.S
+                  from JJMMC, Davangere, and a M.D degree from prestigious
+                  Maulana Azad Medical College, New Delhi and done his
+                  residency from AlIMS, New Delhi. He is working as
+                  medicolegal specialist and having extensive experience in
+                  dealing with medicolegal cases. Dr. Chandra is a lifetime
+                  member of Medicolegal society of Delhi and registered with
+                  the DMC and NMC (formerly MCI). He holds certifications in
+                  ACLS and BLS from LNJP Hospital, New Delhi. He has also
+                  attended several conferences and workshops related to
+                  medical emergency management, legal issues in medical and
+                  dental practices, DNA technology and Role of DNA
+                  fingerprintings in crime and justice.
+                </p>
+              </div>
+              <div class="img_col second_col">
+                <img src="./images/dr_1.jpg" alt="" />
               </div>
             </div>
-            <p id="desktop_copyright_text" class="copyright_text">
+          </div>
+          <div class="item">
+            <div class="row_d">
+              <div class="img_col first_col">
+                <img src="./images/dr_2.jpg" alt="" />
+              </div>
+              <div class="text_col second_col">
+                <div class="heading_container">
+                  <h4 class="sub_heading">Ayurvedic Physician</h4>
+                  <h2 class="heading">Dr. Anshika Vishwakarma</h2>
+                </div>
+                <p>
+                  Dr. Anshika Vishwakarma is a skilled Ayurvedic Physician
+                  with a passion for promoting health and well-being in the
+                  community. She has completed her Bachelor of Ayurvedic
+                  Medicine & Surgery (BAMS) from RDMC Ayurvedic College and
+                  Hospital and has additional qualifications from various
+                  organizations.
+                  <br />
+                  <br />
+                  Dr. Vishwakarma has worked as a Senior Research Fellow (SRF)
+                  on the Non-Communicable Disease (NCD) Project for Lower
+                  Economic People under SCSP Programme led by AYUSH Ministry.
+                  She has also worked as a Resident Medical Officer (RMO) at
+                  the Labor Room, Labor OT, Post-Operative Ward in the OBG/GYN
+                  department at Rathi Hospital, Delhi.
+                  <br />
+                  <br />
+                  Furthermore, she has extensive experience in conducting
+                  clinical trials and research, managing junior doctors, lab
+                  technicians, pharmacists, data entry operators, and MTAs.
+                  Dr. Vishwakarma is skilled in managing anaemia,
+                  gynaecological, and gastroenterological cases.
+                  <br />
+                  <br />
+                  She has attended numerous conferences and has received
+                  several certifications, including the largest class of
+                  CHARAK SAMHITA, Niramaya, A approach to Women's health
+                  through Ayurveda, and many more. Dr. Vishwakarma also has a
+                  keen interest in promoting hygiene and good health.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row_d">
+        <div class="form_column">
+          <div class="inner_text">
+            <h3>Keep in touch and receive fun updates!</h3>
+            <form>
+              <input class="mail_field" type="email" name="" id="" placeholder="Enter your email here ..." required />
+              <input class="button_submit" type="submit" value="Sign Up" />
+            </form>
+            <div class="social_col">
+              <ul class="social_ul d-flex">
+                <li>
+                  <a class="" href="">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </li>
+              </ul>
+            </div>
+            <h2>Customer Support Center</h2>
+            <div class="time_address_footer">
+              <p>Monday – Friday</p>
+              <p>10am – 6pm IST</p>
+              <a href="mailto:info@toffease.com">info@toffease.com</a>
+              <a href="tel:+91 98717 89996">+91 98717 89996</a>
+            </div>
+            <p id="mobile_copyright_text" class="copyright_text">
               Copyright © 2023
               <a class="copyright_a" href="">Toffease</a>
               <a class="copyright_a" href="">Made by Wizbytes</a>
             </p>
           </div>
         </div>
+        <div class="footer_text_column">
+          <div class="inner_text_col">
+            <div class="parent_col d-flex">
+              <div class="item">
+                <h4>Company</h4>
+                <ul>
+                  <li class="active"><a href="">Home</a></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Journal</a></li>
+                  <li><a href="">Reviews</a></li>
+                  <li><a href="">Contact</a></li>
+                </ul>
+              </div>
+              <div class="item">
+                <h4>Customer Care</h4>
+                <ul>
+                  <li><a href="">Terms and Conditions</a></li>
+                  <li><a href="">FAQ</a></li>
+                </ul>
+              </div>
+              <div class="item">
+                <h4>Shop</h4>
+                <ul>
+                  <li><a href="">Shop all</a></li>
+                  <li><a href="">Candies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <p id="desktop_copyright_text" class="copyright_text">
+            Copyright © 2023
+            <a class="copyright_a" href="">Toffease</a>
+            <a class="copyright_a" href="">Made by Wizbytes</a>
+          </p>
+        </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <!-- AOS data -->
-    <script src="./js/aos.js"></script>
+  <!-- AOS data -->
+  <script src="./js/aos.js"></script>
 
-    <!-- img scroll -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <!-- img scroll -->
+  <!-- img scroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- img scroll -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script src="./js/jquery.counterup.min.js"></script>
-    <script src="./js/waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="./js/jquery.counterup.min.js"></script>
+  <script src="./js/waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
 
-    <script src="./js/index.js"></script>
-  </body>
+  <script src="./js/index.js"></script>
+</body>
+
 </html>

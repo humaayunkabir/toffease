@@ -209,6 +209,17 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*================ Image vertically moving (scroll) ================*/
 $(window).on("load resize scroll", function () {
     $(".img_col, .animated_parent").each(function () {
@@ -233,4 +244,26 @@ $(window).on("load resize scroll", function () {
                 top: leftPosition
             });
     });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery(window).scroll(function () {
+    var scroll = jQuery(window).scrollTop();
+    if (scroll >= 230) {
+        jQuery(".contact_page").addClass("contact_page_scroll");
+    } else {
+        jQuery(".contact_page").removeClass("contact_page_scroll");
+    }
 });
